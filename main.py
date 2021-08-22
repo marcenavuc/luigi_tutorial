@@ -1,5 +1,5 @@
 import luigi
-from tutorial.core import TeachModelTask, DataSetLoadTask, \
+from tasks.core import TeachModelTask, DataSetLoadTask, \
     FeatureExtractionTask, SplitDataTask
 
 if __name__ == "__main__":
